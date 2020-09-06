@@ -6,9 +6,9 @@ qr=qrcode.QRCode(
 
 	)
 
-data="Hello, I'm Sohail Saifi"
+data="Hello, This is a QR code generator"
 qr.add_data(data)
 qr.make(fit=True)
 img=qr.make_image(fill="black",back_color="white")
-img.save("1.png")
+img.save("QR.png")
 
